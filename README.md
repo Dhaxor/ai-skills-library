@@ -23,6 +23,7 @@ Largest curated cross-provider skills library for OpenAI and Claude.
 - [Shared skills](skills/shared/README.md)
 - [Full catalog](docs/catalog.md)
 - [Source inventory](docs/sources.md)
+- [Topic landing pages](docs/topics/README.md)
 - [Contributing guide](docs/contributing.md)
 
 ## Core sources
