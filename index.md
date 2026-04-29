@@ -27,5 +27,5 @@
 - [OpenAI skills](skills/openai/README.md)
 - [Claude skills](skills/claude/README.md)
 - [Shared skills](skills/shared/README.md)
-- [Catalog](docs/catalog.md)
+- [Full catalog](docs/catalog.md)
 - [Source inventory](docs/sources.md)
