@@ -14,6 +14,18 @@
 - Writing
 - Research
 - Support
+- Design
+- Operations
 
-## Next steps
-Expand each use case into its own directory with prompts, workflows, examples, and validation checklists.
+## Inventory counts
+- OpenAI curated: 38
+- OpenAI system: 5
+- Anthropic: 17
+- Awesome Copilot: 322
+
+## Fast links
+- [OpenAI skills](skills/openai/README.md)
+- [Claude skills](skills/claude/README.md)
+- [Shared skills](skills/shared/README.md)
+- [Catalog](docs/catalog.md)
+- [Source inventory](docs/sources.md)
