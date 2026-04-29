@@ -2,416 +2,128 @@
 
 A large indexed catalog of public skills and workflows relevant to OpenAI and Claude.
 
-## Awesome Copilot: Agents (33)
+## Use-case directories
+- [Agents](#agents)
+- [Automation and tools](#automation-and-tools)
+- [RAG and knowledge](#rag-and-knowledge)
+- [Coding and engineering](#coding-and-engineering)
+- [Writing and docs](#writing-and-docs)
+- [Research and analysis](#research-and-analysis)
+- [Support and operations](#support-and-operations)
+- [Design and product](#design-and-product)
+
+## OpenAI skills
+### Core and orchestration
+- `migrate-to-codex` — migrate workflows toward Codex-style coding and execution
+- `playwright` — browser automation and web interaction
+- `playwright-interactive` — interactive browser automation for dynamic tasks
+- `gh-address-comments` — resolve PR comments and reviewer feedback
+- `gh-fix-ci` — diagnose and repair CI failures
+- `linear` — project and issue management workflows
+
+### Writing, docs, and knowledge
+- `doc` — document-focused workflows
+- `openai-docs` — OpenAI documentation guidance
+- `notion-knowledge-capture` — capture and organize knowledge
+- `notion-research-documentation` — turn research into reusable notes
+- `notion-spec-to-implementation` — convert specs into implementation plans
+
+### Design and product
+- `figma` — Figma workflow support
+- `figma-create-design-system-rules` — create design system rules
+- `figma-implement-design` — implement design from Figma
+- `screenshot` — analyze screenshots and visual states
+- `netlify-deploy` — deploy web work quickly
+- `vercel-deploy` — deploy modern apps and previews
+
+### Security and reliability
+- `security-best-practices` — secure coding and safe deployment patterns
+- `security-threat-model` — identify threats and mitigation strategies
+- `security-ownership-map` — map ownership for secure delivery
+- `sentry` — monitor and diagnose runtime issues
+
+## Claude skills
+### Communication and document workflows
+- `doc-coauthoring` — collaborate on documents with structured revisions
+- `docx` — work with Word documents
+- `pptx` — create and refine presentations
+- `xlsx` — work with spreadsheets
+- `internal-comms` — internal communications and announcements
+
+### Engineering and web
+- `frontend-design` — frontend implementation and UX shaping
+- `webapp-testing` — test and validate web apps
+- `mcp-builder` — build and integrate MCP tooling
+- `claude-api` — Claude API-related workflows
+- `brand-guidelines` — maintain brand consistency
+
+### Creative and media
+- `algorithmic-art` — generate procedural and computational art
+- `canvas-design` — create visual layouts and canvas-based designs
+- `theme-factory` — build themed visual systems
+- `web-artifacts-builder` — generate web artifacts and demos
+- `slack-gif-creator` — create lightweight animated content
+
+## Shared skills and cross-model patterns
+- Agent orchestration and planning
+- Tool use and automation
+- Retrieval and context management
+- Code review and refactoring
+- Test generation and validation
+- Research synthesis and summarization
+- Support macros and response workflows
+- Product documentation and release notes
+- Design handoff and implementation
+
+## Major community inventories
+### Awesome Copilot: Agents
 - agent-governance
 - agent-owasp-compliance
 - agent-supply-chain
 - agentic-eval
-- ai-prompt-engineering-safety-review
 - ai-team-orchestration
-- arize-prompt-optimization
-- boost-prompt
-- copilot-cli-quickstart
-- copilot-instructions-blueprint-generator
 - copilot-sdk
-- copilot-spaces
-- copilot-usage-metrics
 - create-agentsmd
-- create-github-action-workflow-specification
 - declarative-agents
-- entra-agent-user
-- finalize-agent-prompt
-- foundry-agent-sync
-- github-copilot-starter
-- mcp-copilot-studio-server-generator
-- mcp-create-declarative-agent
-- mcp-deploy-manage-agents
-- microsoft-agent-framework
-- polyglot-test-agent
 - project-workflow-analysis-blueprint-generator
-- prompt-builder
-- suggest-awesome-github-copilot-agents
-- suggest-awesome-github-copilot-instructions
-- suggest-awesome-github-copilot-skills
-- tldr-prompt
-- typespec-create-agent
-- workiq-copilot
+- structured-autonomy-plan
 
-## Awesome Copilot: Coding (81)
+### Awesome Copilot: Coding and engineering
 - acquire-codebase-knowledge
-- aspnet-minimal-api-openapi
-- aws-cdk-python-setup
-- azure-devops-cli
-- breakdown-feature-implementation
-- breakdown-test
-- cli-mastery
-- code-exemplars-blueprint-generator
 - code-tour
-- codeql
-- comment-code-generate-a-tutorial
-- create-github-issues-feature-from-implementation-plan
 - create-implementation-plan
 - create-spring-boot-java-project
-- creating-oracle-to-postgres-migration-integration-tests
-- csharp-mstest
-- dataverse-python-advanced-patterns
 - dataverse-python-production-code
-- dataverse-python-quickstart
-- dataverse-python-usecase-builder
-- flowstudio-power-automate-debug
-- flowstudio-power-automate-governance
-- generate-custom-instructions-from-codebase
 - gh-cli
-- go-mcp-server-generator
-- import-infrastructure-as-code
-- java-add-graalvm-native-image-support
-- java-docs
-- java-junit
-- java-mcp-server-generator
-- java-refactoring-extract-method
-- java-refactoring-remove-parameter
 - java-springboot
-- javascript-typescript-jest
-- javax-to-jakarta-migration
-- mcp-cli
-- microsoft-code-reference
-- minecraft-plugin-development
-- msstore-cli
-- openapi-to-application-code
-- phoenix-cli
-- planning-oracle-to-postgres-migration-integration-testing
 - playwright-generate-test
-- postgresql-code-review
-- power-apps-code-app-scaffold
-- pytest-coverage
-- python-azure-iot-edge-modules
-- python-mcp-server-generator
-- python-pypi-package-builder
-- qdrant-clients-sdk
-- quasi-coder
-- react-audit-grep-patterns
-- react18-batching-patterns
-- react18-dep-compatibility
-- react18-enzyme-to-rtl
-- react18-legacy-context
-- react18-lifecycle-patterns
-- react18-string-refs
-- react19-concurrent-patterns
-- react19-source-patterns
-- react19-test-patterns
-- refactor
-- refactor-method-complexity-reduce
-- refactor-plan
-- review-and-refactor
-- rust-mcp-server-generator
-- scaffolding-oracle-to-postgres-migration-test-project
-- scoutqa-test
-- spring-boot-testing
 - sql-code-review
-- typescript-mcp-server-generator
 - typespec-api-operations
-- typespec-create-api-plugin
-- unit-test-vue-pinia
-- update-implementation-plan
-- vscode-ext-commands
-- vscode-ext-localization
-- web-coder
-- webapp-testing
-- winapp-cli
-- winmd-api-search
 
-## Awesome Copilot: Docs (20)
-- add-educational-comments
-- create-github-issue-feature-from-specification
-- create-github-issues-for-unmet-specification-requirements
-- create-github-pull-request-from-specification
+### Awesome Copilot: Docs and research
 - create-readme
 - create-specification
-- create-tldr-page
-- csharp-docs
 - documentation-writer
-- gen-specs-as-issues
 - markdown-to-html
 - meeting-minutes
-- microsoft-docs
-- mkdocs-translations
-- multi-stage-dockerfile
-- oo-component-documentation
-- pdftk-server
-- readme-blueprint-generator
-- update-markdown-file-index
 - update-specification
-
-## Awesome Copilot: Research (15)
-- appinsights-instrumentation
-- apple-appstore-reviewer
-- arize-evaluator
-- audit-integrity
-- autoresearch
-- bigquery-pipeline-audit
-- datanalysis-credit-risk
-- dotnet-design-pattern-review
-- eval-driven-dev
-- mcp-security-audit
-- phoenix-evals
-- power-bi-model-design-review
-- reviewing-oracle-to-postgres-migration
 - security-review
 - web-design-reviewer
 
-## Awesome Copilot: Design (20)
+### Awesome Copilot: Design and ops
 - adobe-illustrator-scripting
-- arch-linux-triage
-- arduino-azure-iot-edge-integration
 - azure-resource-visualizer
-- azure-smart-city-iot-solution-builder
-- centos-linux-triage
 - cloud-design-patterns
-- debian-linux-triage
-- fedora-linux-triage
-- flowstudio-power-automate-build
-- fluentui-blazor
-- gtm-partnership-architecture
-- image-manipulation-image-magick
-- legacy-circuit-mockups
-- penpot-uiux-design
 - power-bi-report-design-consultation
-- power-platform-mcp-connector-suite
-- premium-frontend-ui
-- salesforce-flow-design
-- winui3-migration-guide
-
-## Awesome Copilot: DevOps (12)
-- azure-architecture-autopilot
-- azure-deployment-preflight
-- azure-pricing
-- azure-resource-health-diagnose
-- azure-role-selector
-- azure-static-web-apps
-- create-architectural-decision-record
-- gtm-technical-product-pricing
-- phoenix-tracing
-- plantuml-ascii
-- qdrant-deployment-options
-- terraform-azurerm-set-diff-analyzer
-
-## Awesome Copilot: Data (6)
-- arize-dataset
-- cosmosdb-datamodeling
-- data-breach-blast-radius
-- postgresql-optimization
-- shuffle-json-data
-- sql-optimization
-
-## Awesome Copilot: Support (2)
-- devops-rollout-plan
-- power-bi-performance-troubleshooting
-
-## Awesome Copilot: Security (1)
-- threat-model-analyst
-
-## Awesome Copilot: Other (132)
-- architecture-blueprint-generator
-- arize-ai-provider-integration
-- arize-annotation
-- arize-experiment
-- arize-instrumentation
-- arize-link
-- arize-trace
-- aspire
-- automate-this
-- az-cost-optimize
-- batch-files
-- brag-sheet
-- breakdown-epic-arch
-- breakdown-epic-pm
-- breakdown-feature-prd
-- breakdown-plan
-- chrome-devtools
-- containerize-aspnet-framework
-- containerize-aspnetcore
-- context-map
-- conventional-commit
-- convert-plaintext-to-md
-- create-llms
-- create-spring-boot-kotlin-project
-- create-technical-spike
-- creating-oracle-to-postgres-master-migration-plan
-- creating-oracle-to-postgres-migration-bug-report
-- csharp-async
-- csharp-mcp-server-generator
-- csharp-nunit
-- csharp-tunit
-- csharp-xunit
-- daily-prep
-- dependabot
-- dotnet-best-practices
-- dotnet-timezone
-- dotnet-upgrade
-- doublecheck
-- draw-io-diagram-generator
-- editorconfig
-- ef-core
-- email-drafter
-- exam-ready
-- excalidraw-diagram-generator
-- fabric-lakehouse
-- finnish-humanizer
-- first-ask
-- flowstudio-power-automate-mcp
-- flowstudio-power-automate-monitoring
-- folder-structure-blueprint-generator
-- freecad-scripts
-- from-the-other-side-vega
-- game-engine
-- gdpr-compliant
-- geofeed-tuner
-- git-commit
-- git-flow-branch-creator
-- github-issues
-- gsap-framer-scroll-animation
-- gtm-0-to-1-launch
-- gtm-ai-gtm
-- gtm-board-and-investor-communication
-- gtm-developer-ecosystem
-- gtm-enterprise-account-planning
-- gtm-enterprise-onboarding
-- gtm-operating-cadence
-- gtm-positioning-strategy
-- gtm-product-led-growth
-- impediment-prioritization
-- integrate-context-matic
-- issue-fields-migration
-- kotlin-mcp-server-generator
-- kotlin-springboot
-- linkedin-post-formatter
-- lsp-setup
-- make-repo-contribution
-- make-skill-template
-- mcp-create-adaptive-cards
-- memory-merger
-- mentoring-juniors
-- microsoft-skill-creator
-- migrating-oracle-to-postgres-stored-procedures
-- model-recommendation
-- my-issues
-- my-pull-requests
-- nano-banana-pro-openrouter
-- napkin
-- next-intl-add-language
-- noob-mode
-- nuget-manager
-- onboard-context-matic
-- php-mcp-server-generator
-- playwright-automation-fill-in-form
-- playwright-explore-website
-- power-bi-dax-optimization
-- power-platform-architect
-- powerbi-modeling
-- prd
+- prompt-builder
 - publish-to-pages
-- qdrant-model-migration
-- qdrant-monitoring
-- qdrant-performance-optimization
-- qdrant-scaling
-- qdrant-search-quality
-- qdrant-version-upgrade
-- quality-playbook
-- remember
-- remember-interactive-programming
-- repo-story-time
-- resemble-detect
-- roundup
-- roundup-setup
-- ruby-mcp-server-generator
-- ruff-recursive-fix
-- salesforce-apex-quality
-- salesforce-component-standards
-- sandbox-npm-install
-- secret-scanning
-- semantic-kernel
-- snowflake-semanticview
-- sponsor-finder
-- structured-autonomy-generate
-- structured-autonomy-implement
-- structured-autonomy-plan
-- swift-mcp-server-generator
-- technology-stack-blueprint-generator
-- transloadit-media-processing
-- update-avm-modules-in-bicep
-- update-llms
-- vardoger-analyze
-- what-context-needed
-- write-coding-standards-from-file
-
-## OpenAI curated (38)
-- aspnet-core
-- chatgpt-apps
-- cli-creator
-- cloudflare-deploy
-- doc
-- figma
-- figma-code-connect-components
-- figma-create-design-system-rules
-- figma-create-new-file
-- figma-generate-design
-- figma-generate-library
-- figma-implement-design
-- figma-use
-- gh-address-comments
-- gh-fix-ci
-- jupyter-notebook
-- linear
-- migrate-to-codex
-- netlify-deploy
-- notion-knowledge-capture
-- notion-meeting-intelligence
-- notion-research-documentation
-- notion-spec-to-implementation
-- openai-docs
-- pdf
-- playwright
-- playwright-interactive
-- render-deploy
-- screenshot
-- security-best-practices
-- security-ownership-map
-- security-threat-model
-- sentry
-- speech
-- transcribe
-- vercel-deploy
-- winui-app
-- yeet
-
-## OpenAI system (5)
-- imagegen
-- openai-docs
-- plugin-creator
-- skill-creator
-- skill-installer
-
-## Anthropic skills (17)
-- algorithmic-art
-- brand-guidelines
-- canvas-design
-- claude-api
-- doc-coauthoring
-- docx
-- frontend-design
-- internal-comms
-- mcp-builder
-- pdf
-- pptx
-- skill-creator
-- slack-gif-creator
-- theme-factory
-- web-artifacts-builder
-- webapp-testing
-- xlsx
+- whats-context-needed
 
 ## Source repositories
 - https://github.com/openai/skills
 - https://github.com/anthropics/skills
 - https://github.com/github/awesome-copilot
 - https://github.com/microsoft/skills
+- https://github.com/alirezarezvani/claude-skills
+- https://github.com/VoltAgent/awesome-agent-skills
+- https://github.com/ComposioHQ/awesome-claude-skills
