@@ -1,11 +1,13 @@
 # Shared Skills
 
-Vendor-neutral skills for both OpenAI and Claude.
+Vendor-neutral skills that apply to both OpenAI and Claude.
 
-## Categories
-- Planning
-- Retrieval
-- Analysis
-- Transformation
-- Validation
+## Common categories
+- Research
+- Writing
+- Coding
 - Automation
+- Analysis
+- Operations
+- Support
+- Evaluation
