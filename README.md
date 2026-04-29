@@ -23,9 +23,9 @@ Largest curated cross-provider skills library for OpenAI and Claude.
 - [Shared skills](skills/shared/README.md)
 - [Full catalog](docs/catalog.md)
 - [Source inventory](docs/sources.md)
-- [Contribution guide](docs/contributing.md)
+- [Contributing guide](docs/contributing.md)
 
-## Source repositories
+## Core sources
 - https://github.com/openai/skills
 - https://github.com/anthropics/skills
 - https://github.com/github/awesome-copilot
@@ -34,4 +34,4 @@ Largest curated cross-provider skills library for OpenAI and Claude.
 - https://github.com/VoltAgent/awesome-agent-skills
 - https://github.com/ComposioHQ/awesome-claude-skills
 
-This repository is built to grow into a large, discoverable skills library for real-world use cases.
+This repository is designed to grow into the most discoverable skill index for real-world AI use cases.
