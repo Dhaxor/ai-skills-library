@@ -1,13 +1,20 @@
 # Claude Skills
 
-Skills tuned for Claude workflows.
-
-## Categories
-- Agents
-- Tools
-- Automation
-- RAG
-- Code
-- Writing
-- Research
-- Support
+## Anthropic skills
+- algorithmic-art
+- brand-guidelines
+- canvas-design
+- claude-api
+- doc-coauthoring
+- docx
+- frontend-design
+- internal-comms
+- mcp-builder
+- pdf
+- pptx
+- skill-creator
+- slack-gif-creator
+- theme-factory
+- web-artifacts-builder
+- webapp-testing
+- xlsx
