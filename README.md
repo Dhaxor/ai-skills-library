@@ -1,24 +1,37 @@
-# Skills for OpenAI + Claude
+# AI Skills Library
 
-A clean, organized repository of reusable skills, prompts, workflows, and automation patterns for OpenAI and Claude.
+Largest curated cross-provider skills library for OpenAI and Claude.
 
-## Focus areas
-- Prompt engineering
-- Agent workflows
-- Tools and automation
-- RAG patterns
-- Coding workflows
-- Writing workflows
-- Research workflows
-- Support workflows
+## What this repo is for
+- A practical, SEO-friendly hub for reusable AI skills
+- OpenAI, Claude, and shared patterns in one place
+- Skills for agents, tools, coding, research, support, design, and operations
+- Direct links and inventories from the strongest public sources
 
-## Structure
-- `skills/` reusable skill packs
-- `workflows/` end-to-end flows
-- `prompts/` prompt templates
-- `templates/` reusable artifacts
-- `examples/` real usage examples
-- `docs/` guides and conventions
+## Coverage snapshot
+- OpenAI curated skills: 38
+- OpenAI system skills: 5
+- Anthropic skills: 17
+- Awesome Copilot skill entries indexed: 322
+- Total unique skill slugs indexed: 378
 
-## Goal
-Build the largest clean repository of practical skills for real-world use cases across OpenAI and Claude.
+## Start here
+- [Repository index](index.md)
+- [Skills overview](skills/README.md)
+- [OpenAI skills](skills/openai/README.md)
+- [Claude skills](skills/claude/README.md)
+- [Shared skills](skills/shared/README.md)
+- [Full catalog](docs/catalog.md)
+- [Source inventory](docs/sources.md)
+- [Contribution guide](docs/contributing.md)
+
+## Source repositories
+- https://github.com/openai/skills
+- https://github.com/anthropics/skills
+- https://github.com/github/awesome-copilot
+- https://github.com/microsoft/skills
+- https://github.com/alirezarezvani/claude-skills
+- https://github.com/VoltAgent/awesome-agent-skills
+- https://github.com/ComposioHQ/awesome-claude-skills
+
+This repository is built to grow into a large, discoverable skills library for real-world use cases.
