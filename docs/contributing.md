@@ -1,16 +1,14 @@
 # Contributing
 
 ## What to add
-- Clear skills
-- Reusable workflows
-- Prompt templates
-- Validation examples
+- New skill packs
+- Better summaries
+- Source links
+- Usage examples
+- Validation checklists
 
-## Style
-- Clean headings
-- Short sections
-- Real examples
-- No filler
-
-## Structure
-Use the template in `templates/skill-template.md` for new skills.
+## Standards
+- Keep entries concise and searchable
+- Prefer one skill per topic or workflow
+- Include attribution for external sources
+- Verify links before committing
