@@ -1,6 +1,6 @@
 # Skills Library
 
-This directory groups skills by provider and by shared use case.
+This directory organizes reusable skills by provider and use case.
 
 ## Layout
 - `openai/` OpenAI-focused skills and workflows
